@@ -370,7 +370,7 @@ textarea {
     font-style: normal;
     font-weight: 300;
     src: url('../fonts/quicksand-v21-latin-ext_latin-300.eot'); /* IE9 Compat Modes */
-    src: local(''),
+    src: local('Quicksand Light'),local('Quicksand-Light')
          url('../fonts/quicksand-v21-latin-ext_latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('../fonts/quicksand-v21-latin-ext_latin-300.woff2') format('woff2'), /* Super Modern Browsers */
          url('../fonts/quicksand-v21-latin-ext_latin-300.woff') format('woff'), /* Modern Browsers */
@@ -383,7 +383,7 @@ textarea {
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/quicksand-v21-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
+    src: local('Quicksand Regular'),local('Quicksand-Regular')
          url('../fonts/quicksand-v21-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('../fonts/quicksand-v21-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
          url('../fonts/quicksand-v21-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
@@ -396,7 +396,7 @@ textarea {
     font-style: normal;
     font-weight: 600;
     src: url('../fonts/quicksand-v21-latin-ext_latin-600.eot'); /* IE9 Compat Modes */
-    src: local(''),
+    src: local('Quicksand SemiBold'),local('Quicksand-SemiBold')
          url('../fonts/quicksand-v21-latin-ext_latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('../fonts/quicksand-v21-latin-ext_latin-600.woff2') format('woff2'), /* Super Modern Browsers */
          url('../fonts/quicksand-v21-latin-ext_latin-600.woff') format('woff'), /* Modern Browsers */
@@ -409,7 +409,7 @@ textarea {
     font-style: normal;
     font-weight: 500;
     src: url('../fonts/quicksand-v21-latin-ext_latin-500.eot'); /* IE9 Compat Modes */
-    src: local(''),
+    src: local('Quicksand Medium'),local('Quicksand-Medium')
          url('../fonts/quicksand-v21-latin-ext_latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('../fonts/quicksand-v21-latin-ext_latin-500.woff2') format('woff2'), /* Super Modern Browsers */
          url('../fonts/quicksand-v21-latin-ext_latin-500.woff') format('woff'), /* Modern Browsers */
@@ -422,7 +422,7 @@ textarea {
     font-style: normal;
     font-weight: 700;
     src: url('../fonts/quicksand-v21-latin-ext_latin-700.eot'); /* IE9 Compat Modes */
-    src: local(''),
+    src: local('Quicksand Bold'), local('Quicksand-Bold')
          url('../fonts/quicksand-v21-latin-ext_latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('../fonts/quicksand-v21-latin-ext_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
          url('../fonts/quicksand-v21-latin-ext_latin-700.woff') format('woff'), /* Modern Browsers */
