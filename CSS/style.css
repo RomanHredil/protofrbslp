@@ -524,18 +524,19 @@ img{
     background-size: cover;
     background-position: center;
 }
+.content{
+    padding-top: 180px;
+    padding-bottom: 400px;
+    margin-bottom: 22px;
+}
 .intro__tittle{
     width: 670px;
     font-weight: bold;
     font-size: 50px;
     line-height: 60px;
-    padding-top: 180px;
-    padding-bottom: 400px;
     text-transform: uppercase;
     color: #00674c;
-    margin-bottom: 22px;
 }
-
 .intro-information__text{
     font-size: 20px;
     font-weight: 500;
@@ -552,7 +553,7 @@ img{
     margin-bottom: 130px;
 }
 .benefits__wrap{
-    max-width: 1260px; 
+    max-width: 1000px; 
     -webkit-box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993); 
             box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
     margin: 0 auto;
@@ -1008,10 +1009,13 @@ position: relative;
     .header__item:last-child{
         margin-right: 0;
     }
+    .content{
+        padding-top: 380px;
+        padding-bottom: 200px;
+    }
     .intro__tittle{
         padding-left: 15px;
         padding-right: 15px;
-        max-width: 670px;
     }
     .header__logo-item{
         margin: 15px 0;
@@ -1172,6 +1176,15 @@ position: relative;
     .burger::marker{
         color: transparent;
     }
+    .content{
+        padding-top: 380px;
+        padding-bottom: 200px;
+    }
+    .intro{
+        background: url(../JPEG/Frame_103.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
     .benefits__cards{
         border-radius: 15px 15px 0 0;
     }
@@ -1219,6 +1232,7 @@ position: relative;
     .intro__tittle{
         width: auto;
         text-align: center;
+        background-color: rgba(255, 255, 255, 0.8);
     }
     .intro__subtittle{
         text-align: center;
@@ -1313,13 +1327,7 @@ position: relative;
     }
 }
 @media screen and (max-width: 580px){
-    .intro{
-        min-height: 100vh;
-        max-width: 100vw;
-        background: url(../JPEG/Banner_bck_580px.jpg) no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
+
     .benefits__cards{
         display: -ms-grid;
         display: grid;
@@ -1357,11 +1365,10 @@ position: relative;
     }
     .intro__tittle{
         width: auto;
-        font-weight: bold;
-        font-size: 35px;
+        font-weight: 700;
         line-height: 48px;
         text-transform: uppercase;
-        color: white;
+        color: #00674c;
         margin-bottom: 28px;
     }
     .intro__subtittle{
@@ -1534,7 +1541,7 @@ position: relative;
     .intro{
         min-height: 100vh;
         max-width: 100vw;
-        background: url(../JPEG/Banner_bck_375px.jpg) no-repeat;
+        background: url(../JPEG/Frame_104.png) no-repeat;
         background-size: cover;
         background-position: center;
         padding-top: 165px;
@@ -1542,6 +1549,19 @@ position: relative;
     }
     .benefits__cards{
         border-radius: 0;
+    }
+    .content{
+    padding-top: 180px;
+    padding-bottom: 200px;
+    }
+    .intro__tittle {
+        width: auto;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 48px;
+        text-transform: uppercase;
+        color: #00674c;
+        margin-bottom: 28px;
     }
 }
 @media screen and (max-width: 375px){
@@ -1615,11 +1635,11 @@ position: relative;
     }  
     .intro__tittle{
         width: auto;
-        font-weight: bold;
+        font-weight: 700;
         font-size: 30px;
         line-height: 44px;
         text-transform: uppercase;
-        color: white;
+        color: #00674c;
         margin-bottom: 28px;
     }
     .intro__subtittle{
