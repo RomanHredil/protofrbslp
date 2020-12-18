@@ -1393,7 +1393,6 @@ position: relative;
         -ms-grid-columns: 1fr 30px 1fr;
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 30px;
-        padding: 10px 50px;
         border-radius: 0;
     }
     .benefits__card{
@@ -1414,13 +1413,9 @@ position: relative;
         line-height: 40px;
         font-weight: 600;
         color: #00674c;
-        padding: 50px 50px 25px 25px;
         position: absolute; 
         top: 0;
-        left: 0;    
-        -webkit-transform: translateY(-100%);
-            -ms-transform: translateY(-100%);
-                transform: translateY(-100%);
+        left: 0;       
     }
     .intro__tittle{
         width: auto;
