@@ -431,9 +431,6 @@ img{
 .get_back_to_us:hover{
     background-color: #00674C;
 }
-@media screen and (max-width: 1024px){
-
-}
 @media screen and (max-width: 817px) {
     .thanks-page-block__text{
     padding-left: 60px;
