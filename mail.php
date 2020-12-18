@@ -31,9 +31,9 @@ require_once('./phpmailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;
 $mail->CharSet = 'utf-8';
 
-$name = $_POST['your_name'];
+$name = $_POST['your-name'];
 $phone = $_POST['your-tel'];
-$email = $_POST['your_email'];
+$email = $_POST['your-email'];
 
 //$mail->SMTPDebug = 0;                               // Enable verbose debug output
 
@@ -57,7 +57,7 @@ $mail->isHTML(true);                                  // Set email format to HTM
 
 
 $mail->Subject = 'Pracuj z CElite CV';
-$mail->Body    = '' .$name . ' aplikuje.<br>Numer telefonu: ' .$phone. '<br>Email: ' .$email . '<br>CV: ' .$file;
+$mail->Body    = '' .$name . ' Aplikuje.<br>Numer telefonu: ' .$phone. ' <br>Email: ' .$email;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
