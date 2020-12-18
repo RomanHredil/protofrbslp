@@ -958,9 +958,7 @@ input[type="file"]::-webkit-file-upload-button:active{
 .video{
     width: 100%;
     background: url(../JPEG/oze_fun.png) no-repeat center top;
-    background-size: cover;
-
-    
+    background-size: cover; 
 }
 .video__wrapper{
 max-width: 1170px;
