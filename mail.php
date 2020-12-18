@@ -13,9 +13,10 @@ if(isset($_FILES['file-915'])){
          $errors[]="extension not allowed, please choose a JPEG or PNG file.";
       }
       
-      if($file_size > 2097152) {
-         $errors[]='File size must be excately 2 MB';
+      if($file_size > 15000000) {
+         $errors[]='File size must be excately 15 MB';
       }
+      
       
       if(empty($errors)==true) {
          move_uploaded_file($file_tmp,"./var/".$file_name);
