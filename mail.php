@@ -56,7 +56,7 @@ $mail->addAttachment("./var/".$file_name);         // Add attachments
 $mail->isHTML(true);                                  // Set email format to HTML
 
 
-$mail->Subject = 'Pracuj z CElite CV';
+$mail->Subject = 'Forbes Columbus Elite';
 $mail->Body    = '' .$name . ' Aplikuje.<br>Numer telefonu: ' .$phone. ' <br>Email: ' .$email;
 $mail->AltBody = '';
 
