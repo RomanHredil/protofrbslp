@@ -677,7 +677,8 @@ img{
 /* Info# Styles End */
 /* Quotes Styles Start */
 .quotes-block{
-    background-color: #00674C;
+    background: url(../JPEG/quotes_bck.png) no-repeat center top;
+    background-size: cover;
     padding-bottom: 40px;
 }
 .quotes-block-head-tittle{
@@ -759,7 +760,7 @@ img{
     margin: 0 auto;
 }
 .aplikation-form{ 
-    background: url(../JPEG/form_field_bck_exmpl1.jpg) no-repeat fixed center top;
+    background: url(../JPEG/apliktaion-bck.png) no-repeat fixed center top;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
     padding-bottom: 40px;
@@ -925,6 +926,10 @@ input[type="file"]::-webkit-file-upload-button:active{
 /* Video Styles Start */
 .video{
     width: 100%;
+    background: url(../JPEG/oze_fun.png) no-repeat center top;
+    background-size: cover;
+
+    
 }
 .video__wrapper{
 max-width: 1170px;
