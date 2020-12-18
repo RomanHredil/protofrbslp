@@ -373,7 +373,7 @@ body{
     font-weight: normal;
     color: #1A1A1A;
     background: url(../JPEG/apliktaion-bck.png) no-repeat;
-    block-size: cover;
+    background-size: cover;
 }
 img{
     max-width: 100%;
@@ -430,4 +430,56 @@ img{
 }
 .get_back_to_us:hover{
     background-color: #00674C;
+}
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (max-width: 817px) {
+    .thanks-page-block__text{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    }
+}
+@media screen and (max-width: 580px){
+    .thanks-page-block__text {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    .thanks-page__block {
+        margin: 80px;
+    }
+}
+@media screen and (max-width: 440px){
+    .thanks-page__block {
+        margin: 40px;
+    }
+    .thanks-page-block__text {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 500;
+    }
+    .cute-animation {
+        width: auto;
+        margin: 0 auto;
+        padding-top: 50px;
+        border-radius: 0 0 25px 25px;
+    }
+}
+@media screen and (max-width: 375px){
+    .thanks-page__block {
+        margin: 10px;
+    }
+    .thanks-page-block__text {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+        line-height: 30px;
+        font-weight: 500;
+    }
 }
