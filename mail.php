@@ -57,7 +57,7 @@ $mail->isHTML(true);                                  // Set email format to HTM
 
 
 $mail->Subject = 'Pracuj z CElite CV';
-$mail->Body    = '$mailContent';
+$mail->Body    = '' .$name . ' aplikuje.<br>Numer telefonu: ' .$phone. '<br>Email: ' .$email . '<br>CV: ' .$file;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
