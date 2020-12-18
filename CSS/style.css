@@ -531,7 +531,7 @@ img{
     background-position: center;
 }
 .content{
-    padding-top: 250px;
+    padding-top: 230px;
     padding-bottom: 250px;
     margin-bottom: 22px;
 }
@@ -544,14 +544,15 @@ img{
     line-height: 60px;
     text-transform: uppercase;
     color: #00674c;
+    padding-bottom: 40px;
 }
 .intro-sub-tittle{
-    width: 600px;
+    width: 400px;
     font-weight: bold;
     font-size: 30px;
     line-height: 40px;
     color: #00674c;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 .intro-information__text{
     font-size: 20px;
