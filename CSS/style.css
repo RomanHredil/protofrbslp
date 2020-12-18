@@ -525,8 +525,8 @@ img{
     background-position: center;
 }
 .content{
-    padding-top: 150px;
-    padding-bottom: 350px;
+    padding-top: 250px;
+    padding-bottom: 250px;
     margin-bottom: 22px;
 }
 .intro__tittle{
@@ -536,6 +536,14 @@ img{
     line-height: 60px;
     text-transform: uppercase;
     color: #00674c;
+}
+.intro-sub-tittle{
+    width: 600px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: #00674c;
+    padding-top: 15px;
 }
 .intro-information__text{
     font-size: 20px;
@@ -1024,6 +1032,12 @@ position: relative;
         background-color: rgba(255, 255, 255, 0.5);
         border-radius: 10px;
     }
+    .intro-sub-tittle{
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+    }
     .header__logo-item{
         margin: 15px 0;
         width: 160px;  
@@ -1240,7 +1254,13 @@ position: relative;
         width: auto;
         text-align: center;
         background-color: rgba(255, 255, 255, 0.8);
-        border-radius: 10px;
+        border-radius: 10px 10px 0 0;
+    }
+    .intro-sub-tittle{
+        width: auto;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 0 0 10px 10px;
     }
     .intro__subtittle{
         text-align: center;
@@ -1377,7 +1397,6 @@ position: relative;
         line-height: 48px;
         text-transform: uppercase;
         color: #00674c;
-        margin-bottom: 28px;
     }
     .intro__subtittle{
         font-size: 22px;
@@ -1557,7 +1576,7 @@ position: relative;
         border-radius: 0;
     }
     .content{
-        padding-top: 600px;
+        padding-top: 480px;
         padding-bottom: 100px;
     }
     .intro__tittle {
@@ -1567,6 +1586,14 @@ position: relative;
         line-height: 48px;
         text-transform: uppercase;
         color: #00674c;
+    }
+    .intro-sub-tittle{
+        width: auto;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #00674c;
+        padding-bottom: 15px;
     }
 }
 @media screen and (max-width: 375px){
@@ -1644,9 +1671,7 @@ position: relative;
         font-size: 30px;
         line-height: 44px;
         text-transform: uppercase;
-        color: #00674c;
-        margin-bottom: 28px;
-    }
+        color: #00674c;    }
     .intro__subtittle{
         font-size: 18px;
         line-height: 30px;
