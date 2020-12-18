@@ -530,7 +530,7 @@ img{
     margin-bottom: 22px;
 }
 .intro__tittle{
-    width: 670px;
+    width: fit-content;
     font-weight: bold;
     font-size: 50px;
     line-height: 60px;
@@ -1016,6 +1016,8 @@ position: relative;
     .intro__tittle{
         padding-left: 15px;
         padding-right: 15px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
     }
     .header__logo-item{
         margin: 15px 0;
@@ -1233,6 +1235,7 @@ position: relative;
         width: auto;
         text-align: center;
         background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
     }
     .intro__subtittle{
         text-align: center;
