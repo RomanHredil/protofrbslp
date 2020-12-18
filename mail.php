@@ -19,7 +19,7 @@ if(isset($_FILES['file-915'])){
       
       
       if(empty($errors)==true) {
-         move_uploaded_file($file_tmp,"./var/".$file_name);
+         move_uploaded_file($file_tmp,"../var/".$file_name);
          echo "Success";
       }else{
          print_r($errors);
@@ -51,7 +51,7 @@ $mail->addAddress('roman.hredil@columbuselite.pl');     // Кому будет �
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');
-$mail->addAttachment("./var/".$file_name);         // Add attachments
+$mail->addAttachment("../var/".$file_name);         // Add attachments
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
